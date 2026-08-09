@@ -1,0 +1,22 @@
+{
+  "baseURL": "https://tsvsheet.github.io/docs.tsvsheet.vim/",
+  "title": "tsvsheet.vim",
+  "publishDir": "_site",
+  "enableRobotsTXT": true,
+  "markup": {
+    "goldmark": {
+      "renderHooks": {
+        "link": {
+          "useEmbedded": "fallback"
+        },
+        "image": {
+          "useEmbedded": "fallback"
+        }
+      }
+    }
+  },
+  "params": {
+    "description": "Vim and Neovim support for .tsvt spreadsheets: filetype, real tabs, and the tsvsheet language server.",
+    "mainSite": "https://tsvsheet.com"
+  }
+}
